@@ -21,6 +21,10 @@ body {
 }
 
 @include media-breakpoint-down(lg) {
+    /* Background Images */
+    .background-images {
+        display: none;
+    }
     /* Style the navigation menu */
     .aside {
         overflow: hidden;
